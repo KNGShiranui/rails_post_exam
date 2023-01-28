@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <header class ="header">
+      <p>大喜利</p> 
+    </header>
     <%= yield %>
     <footer class ="footer">
       <p><a href="https://bokete.jp/"</a>大喜利修羅王国へはこちら</p>
